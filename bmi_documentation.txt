@@ -1,0 +1,23 @@
+Class BMI has the following methods:
+
+__init__:
+Takes a list of dictionary objects or a filename of json file to load. It is assumed that the list and json file have been properly formatted by the processes that created them.
+
+load_mapping:
+Takes a filename to load a json file with a correctly formatted configuration file. 
+Returns a list of dictionary items. 
+Allows for difffernt BMI calculation value or alternative languages to be used.
+
+calc_bmi:
+Takes two float values for weigth in kg and height in cm (corresponding to the json format). 
+Returns a float of the BMI value.
+In the event of an error it returns a value of -1.0 to allow for continued stream processing but identification of issues later.
+
+score_bmi:
+Takes a float value for BMI.
+Returns a tuple of strings with the relevant health risk and health cateogry values.
+In the event of an error it returns 'error', 'error' to allow for continued stream processing but identification of issues later.
+
+process_json:
+Takes a list of properly formatted dictionary objects representing the input cases.
+Returns the same list with each entry updated with three further key value pairs for BMI, health risk and health category.

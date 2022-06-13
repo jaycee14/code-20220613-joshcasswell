@@ -1,0 +1,6 @@
+[{"bmi":18.4,"health":"Malnutrition risk", "category":"Underweight"},
+{"bmi":24.9,"health":"Low risk", "category":"Normal weight"},
+{"bmi":29.9,"health":"Enhanced risk", "category":"Overweight"},
+{"bmi":34.9,"health":"Medium risk", "category":"Moderately obese"},
+{"bmi":39.9,"health":"High risk", "category":"Severely obese"},
+{"bmi":-1,"health":"Very high risk", "category":"Very severely obese"}]
